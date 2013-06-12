@@ -2,7 +2,7 @@ import urllib2
 import json
 import datetime
 
-response = urllib2.urlopen('http://api.naveen.com/v0/steps?at=56122cc6-6a6e-4699-95a2-b4f1ec9c5f50')
+response = urllib2.urlopen('http://api.naveen.com/v0/steps?at=')
 
 pyresponse = json.load(response)
 m = len(pyresponse)
